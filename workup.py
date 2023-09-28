@@ -22,8 +22,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import math as math
 
-os.chdir(r"C:\Users\achri\Desktop\Research\python stuff\MHzSAW_NEU") #python folder was updated, make sure directory is accurate
-
 # allows for calling of array.index() - must have defined array as x = myarray(np.array(data))
 class myarray(np.ndarray):
     def __new__(cls, *args, **kwargs):
